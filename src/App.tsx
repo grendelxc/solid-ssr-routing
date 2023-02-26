@@ -8,10 +8,10 @@ const App: Component = () => {
       <main>
         <Router>
           <Routes>
-            <Route path='/' component={() => <h1>Home</h1>} />
             <Route path='/pagea' component={() => <h1>PageA</h1>} />
             <Route path='/pageb' component={() => <h1>PageB</h1>} />
             <Route path='/pagec' component={() => <h1>PageC</h1>} />
+            <Route path='/' component={() => <h1>Home</h1>} />
           </Routes>
         </Router>
       </main>
